@@ -100,6 +100,18 @@ footer {
     background-color: #202020;
 }
 
+.container-main {
+    margin: 1.5em;
+}
+
+.article-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin: 0.5em 0;
+}
+
+
 
 
 
@@ -111,6 +123,12 @@ footer {
 
 body {
     font-family: 'Source Sans 3', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 2em 0 -0.25em 0;
 }
 
 nav a {
@@ -175,6 +193,37 @@ a {
     font-size: .9rem;
 }
 
+.article-date {
+    font-size: 0.75rem;
+    color: #151515;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.article-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #151515;
+    line-height: 1em;
+}
+
+.article-preview {
+    margin: 1em 0;
+    font-size: 1rem;
+    color: #151515;
+}
+
+.article-text {
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+.article-subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
 
 
 
@@ -184,6 +233,7 @@ a {
 
 
 /* MEDIA QUERIES */
+
 
 @media (min-width: 600px) {
 
@@ -220,5 +270,35 @@ a {
     .hero-date {
         font-size: 1rem;
     }
+
+    .container-main {
+        margin: 3em;
+    }
+    
+    .container-text {
+        margin: 2em 4em;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .article-date {
+        font-size: 1rem;
+    }
+
+    .article-title {
+        font-size: 2.25rem;
+        line-height: 1em;
+    }
+
+    .article-text {
+        font-size: 1.14rem;
+    }
+    
+    .article-subtitle {
+        font-size: 1.5rem;
+    }
+
 }
 
